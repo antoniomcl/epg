@@ -49,3 +49,5 @@ public class ChannelResource {
 		return channelRepository.findById(channelId).orElseThrow(() -> new NotFoundException(channelId));
 	}
 }
+
+// Antonio M C Lopes
