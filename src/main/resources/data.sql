@@ -1,0 +1,10 @@
+insert into channel(id, name, position, category) values(DEFAULT, 'Channel 1', '101', 'FREE');
+insert into channel(id, name, position, category) values(DEFAULT, 'Channel 2', '102', 'PAID');
+insert into channel(id, name, position, category) values(DEFAULT, 'Channel 3', '103', 'FREE');
+
+insert into program(id, channelid , image_url, title, description, start_Date, end_Date) values(DEFAULT, 1, 'https://www.cycloid.pt/images/cycloid_anima2.gif?crc=4065297435', 'Program 1 of Channel 1', 'Description of program 1, Channel 1', '2020-07-18 13:00', '2020-07-18 14:00');
+insert into program(id, channelid , image_url, title, description, start_Date, end_Date) values(DEFAULT, 1, 'https://www.cycloid.pt/images/cycloid_anima2.gif?crc=4065297435', 'Program 2 of Channel 1', 'Description of program 2, Channel 1', '2020-07-18 15:00', '2020-07-16 20:00');
+insert into program(id, channelid , image_url, title, description, start_Date, end_Date) values(DEFAULT, 2, 'https://www.cycloid.pt/images/cycloid_anima2.gif?crc=4065297435', 'Program 1 of Channel 2', 'Description of program 1, Channel 2', '2020-07-18 13:00', '2020-07-18 14:00');
+insert into program(id, channelid , image_url, title, description, start_Date, end_Date) values(DEFAULT, 2, 'https://www.cycloid.pt/images/cycloid_anima2.gif?crc=4065297435', 'Program 2 of Channel 2', 'Description of program 2, Channel 2', '2020-07-18 15:00', '2020-07-16 20:00');
+insert into program(id, channelid , image_url, title, description, start_Date, end_Date) values(DEFAULT, 3, 'https://www.cycloid.pt/images/cycloid_anima2.gif?crc=4065297435', 'Program 1 of Channel 3', 'Description of program 1, Channel 3', '2020-07-18 13:00', '2020-07-18 14:00');
+insert into program(id, channelid , image_url, title, description, start_Date, end_Date) values(DEFAULT, 3, 'https://www.cycloid.pt/images/cycloid_anima2.gif?crc=4065297435', 'Program 2 of Channel 3', 'Description of program 2, Channel 3', '2020-07-18 15:00', '2020-07-16 20:00');
